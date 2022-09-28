@@ -1,0 +1,21 @@
+body{
+    background-color: #f7f7f7;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    max-width: 200px;
+    border: 1px solid black;
+}
+
+ul {
+    list-style: none;
+}
+
+.card-contato{
+    margin: auto;
+}
+
+.card-pessoal{
+    margin: auto;
+}

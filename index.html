@@ -5,31 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>CV Manoel Rodriguez</title>
 </head>
 
 <body>
-    <section>
-
-
-        <h1>Manoel Rodriguez</h1>
-        <img src="/assets/minha-foto2.jpeg" alt="">
-    </section>
-    <section>
-        <h2>Informações Pessoais</h2>
-        <ul>
-            <li>Idade: 24 anos</li>
-            <li>Sexo: Masculino</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Informações de Contato</h2>
-        <ul>
-            <li>Telefone: (13) 99210-5342</li>
-            <li>E-mail: manoel.rodriguez98@gmail.com</li>
-            <li>Endereço: Santos - (SP)</li>
-        </ul>
-    </section>
+    <div class="container">
+        <div class="row text-center">
+            <section>
+                <h1>Manoel Rodriguez</h1>
+                <img class="foto-perfil" src="/assets/imagens/minha-foto6.png" alt="">
+            </section>
+        </div>
+        <div class="row">
+            <div class="col-6 text-center info-pessoal">
+                <div class="card card-pessoal" style="width: 18rem;">
+                    <div class="card-header">
+                        Informações Pessoais
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Idade: 24 anos</li>
+                        <li class="list-group-item">Sexo: Masxulino</li>
+                        <li class="list-group-item">Formação: Superior Completo</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-6 text-center info-contato">
+                <div class="card card-contato" style="width: 18rem;">
+                    <div class="card-header">
+                      Informações de Contato
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Telefone: (13) 99210-5342</li>
+                      <li class="list-group-item">E-mail: manoel.rodriguez98@gmail.com</li>
+                      <li class="list-group-item">Santos - (SP)</li>
+                    </ul>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
